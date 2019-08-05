@@ -1,3 +1,8 @@
 <h1>Project#index</h1>
 <p>Find me in app/views/project/index.html.erb</p>
 <a href="/team/">Notre équipe</a>
+<form action="/welcome_user/:first_name" method="get">
+	Entre ton prénom ici : <input type='text' name='first_name'/><br/>
+	Entre ton nom ici : <input type='text' name='last_name'/><br/>
+	<input type='submit'/>
+</form>

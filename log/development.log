@@ -188,3 +188,379 @@ Processing by ProjectController#index as HTML
 Completed 200 OK in 50ms (Views: 48.2ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/" for ::1 at 2019-08-05 14:17:15 +0200
+Processing by ProjectController#index as HTML
+  Rendering project/index.html.erb within layouts/application
+  Rendered project/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 230ms (Views: 225.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-08-05 14:18:14 +0200
+Processing by ProjectController#index as HTML
+  Rendering project/index.html.erb within layouts/application
+  Rendered project/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 16ms (Views: 14.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/" for ::1 at 2019-08-05 14:18:27 +0200
+  
+ActionController::RoutingError (No route matches [POST] "/"):
+  
+actionpack (5.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started POST "/" for ::1 at 2019-08-05 14:19:01 +0200
+  
+ActionController::RoutingError (No route matches [POST] "/"):
+  
+actionpack (5.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/" for ::1 at 2019-08-05 14:19:31 +0200
+Processing by ProjectController#index as HTML
+  Rendering project/index.html.erb within layouts/application
+  Rendered project/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 16ms (Views: 14.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/welcome_user/:first_name" for ::1 at 2019-08-05 14:19:35 +0200
+  
+ActionController::RoutingError (No route matches [POST] "/welcome_user/:first_name"):
+  
+actionpack (5.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started POST "/welcome_user/:first_name" for ::1 at 2019-08-05 14:21:34 +0200
+  
+ActionController::RoutingError (No route matches [POST] "/welcome_user/:first_name"):
+  
+actionpack (5.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/" for ::1 at 2019-08-05 14:21:39 +0200
+Processing by ProjectController#index as HTML
+  Rendering project/index.html.erb within layouts/application
+  Rendered project/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 20ms (Views: 18.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/welcome_user/:first_name?first_name=sqdqs&last_name=qsdsq" for ::1 at 2019-08-05 14:21:42 +0200
+Processing by ProjectController#welcome_user as HTML
+  Parameters: {"first_name"=>":first_name", "last_name"=>"qsdsq"}
+  Rendering project/welcome_user.html.erb within layouts/application
+  Rendered project/welcome_user.html.erb within layouts/application (230.1ms)
+Completed 500 Internal Server Error in 236ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `first_name' for #<#<Class:0x00007fd334f401c8>:0x00007fd3348d6328>):
+    1: <h1>Project#welcome_user</h1>
+    2: <p>BONJOUR <%= first_name%> <%= last_name%> </p>
+  
+app/views/project/welcome_user.html.erb:2:in `_app_views_project_welcome_user_html_erb___2916017481176154140_70272548287760'
+Started GET "/welcome_user/:first_name?first_name=sqdqs&last_name=qsdsq" for ::1 at 2019-08-05 14:26:13 +0200
+Processing by ProjectController#welcome_user as HTML
+  Parameters: {"first_name"=>":first_name", "last_name"=>"qsdsq"}
+  Rendering project/welcome_user.html.erb within layouts/application
+  Rendered project/welcome_user.html.erb within layouts/application (194.0ms)
+Completed 500 Internal Server Error in 199ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `first_name' for #<#<Class:0x00007fd334f401c8>:0x00007fd337332ea0>):
+    1: <h1>Project#welcome_user</h1>
+    2: <p>BONJOUR <%= first_name%> <%= last_name%> </p>
+  
+app/views/project/welcome_user.html.erb:2:in `_app_views_project_welcome_user_html_erb___2916017481176154140_70272570465320'
+Started GET "/" for ::1 at 2019-08-05 14:26:20 +0200
+Processing by ProjectController#index as HTML
+  Rendering project/index.html.erb within layouts/application
+  Rendered project/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 116ms (Views: 114.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/welcome_user/:first_name?first_name=qsd&last_name=dqsdsq" for ::1 at 2019-08-05 14:26:23 +0200
+Processing by ProjectController#welcome_user as HTML
+  Parameters: {"first_name"=>":first_name", "last_name"=>"dqsdsq"}
+  Rendering project/welcome_user.html.erb within layouts/application
+  Rendered project/welcome_user.html.erb within layouts/application (171.1ms)
+Completed 500 Internal Server Error in 176ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `first_name' for #<#<Class:0x00007fd334f401c8>:0x00007fd337159660>):
+    1: <h1>Project#welcome_user</h1>
+    2: <p>BONJOUR <%= first_name%> <%= last_name%> </p>
+  
+app/views/project/welcome_user.html.erb:2:in `_app_views_project_welcome_user_html_erb___2916017481176154140_70272569497220'
+Started GET "/welcome_user/:first_name?first_name=sqdqs&last_name=qsdsq" for ::1 at 2019-08-05 14:29:01 +0200
+Processing by ProjectController#welcome_user as HTML
+  Parameters: {"first_name"=>"sqdqs", "last_name"=>"qsdsq", "id"=>":first_name"}
+  Rendering project/welcome_user.html.erb within layouts/application
+  Rendered project/welcome_user.html.erb within layouts/application (186.5ms)
+Completed 500 Internal Server Error in 193ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `first_name' for #<#<Class:0x00007fd3375f0778>:0x00007fd3375eadc8>):
+    1: <h1>Project#welcome_user</h1>
+    2: <p>BONJOUR <%= first_name%> <%= last_name%> </p>
+  
+app/views/project/welcome_user.html.erb:2:in `_app_views_project_welcome_user_html_erb___2916017481176154140_70272571901920'
+Started GET "/welcome_user/:first_name?first_name=qsd&last_name=dqsdsq" for ::1 at 2019-08-05 14:29:33 +0200
+Processing by ProjectController#welcome_user as HTML
+  Parameters: {"first_name"=>"qsd", "last_name"=>"dqsdsq", "id"=>":first_name"}
+  Rendering project/welcome_user.html.erb within layouts/application
+  Rendered project/welcome_user.html.erb within layouts/application (169.5ms)
+Completed 500 Internal Server Error in 175ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `id' for #<#<Class:0x00007fd3375f0778>:0x00007fd331c22fe8>):
+    1: <h1>Project#welcome_user</h1>
+    2: <p>BONJOUR <%= id%> <%= last_name%> </p>
+  
+app/views/project/welcome_user.html.erb:2:in `_app_views_project_welcome_user_html_erb___2916017481176154140_70272524833760'
+Started GET "/welcome_user/:first_name?first_name=qsd&last_name=dqsdsq" for ::1 at 2019-08-05 14:31:32 +0200
+Processing by ProjectController#welcome_user as HTML
+  Parameters: {"first_name"=>"qsd", "last_name"=>"dqsdsq", "id"=>":first_name"}
+  Rendering project/welcome_user.html.erb within layouts/application
+  Rendered project/welcome_user.html.erb within layouts/application (175.6ms)
+Completed 500 Internal Server Error in 182ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `first_name' for #<#<Class:0x00007fd33169bc50>:0x00007fd33169a2d8>):
+    1: <h1>Project#welcome_user</h1>
+    2: <p>BONJOUR <%= first_name%> <%= last_name%> </p>
+  
+app/views/project/welcome_user.html.erb:2:in `_app_views_project_welcome_user_html_erb___2916017481176154140_70272521929420'
+Started GET "/welcome_user/:first_name?first_name=qsd&last_name=dqsdsq" for ::1 at 2019-08-05 14:31:55 +0200
+Processing by ProjectController#welcome_user as HTML
+  Parameters: {"first_name"=>"qsd", "last_name"=>"dqsdsq", "id"=>":first_name"}
+  Rendering project/welcome_user.html.erb within layouts/application
+  Rendered project/welcome_user.html.erb within layouts/application (197.1ms)
+Completed 500 Internal Server Error in 203ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `first_name' for #<#<Class:0x00007fd331643280>:0x00007fd331641930>):
+    1: <h1>Project#welcome_user</h1>
+    2: <p>BONJOUR <%= first_name%> <%= last_name%> </p>
+  
+app/views/project/welcome_user.html.erb:2:in `_app_views_project_welcome_user_html_erb___2916017481176154140_70272521739600'
+Started GET "/welcome_user/:first_name?first_name=qsd&last_name=dqsdsq" for ::1 at 2019-08-05 14:42:11 +0200
+Processing by ProjectController#welcome_user as HTML
+  Parameters: {"first_name"=>"qsd", "last_name"=>"dqsdsq", "id"=>":first_name"}
+  Rendering project/welcome_user.html.erb within layouts/application
+  Rendered project/welcome_user.html.erb within layouts/application (173.0ms)
+Completed 500 Internal Server Error in 179ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `first_name' for #<#<Class:0x00007fd334b719e8>:0x00007fd334252498>):
+    1: <h1>Project#welcome_user</h1>
+    2: <p>BONJOUR <%= first_name%> <%= last_name%> </p>
+  
+app/views/project/welcome_user.html.erb:2:in `_app_views_project_welcome_user_html_erb___2916017481176154140_70272549623000'
+Started GET "/" for ::1 at 2019-08-05 14:46:30 +0200
+Processing by ProjectController#index as HTML
+  Rendering project/index.html.erb within layouts/application
+  Rendered project/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 17ms (Views: 15.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-08-05 14:46:32 +0200
+Processing by ProjectController#index as HTML
+  Rendering project/index.html.erb within layouts/application
+  Rendered project/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 17ms (Views: 15.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/welcome_user/:first_name?first_name=treat&last_name=ezrtezrt" for ::1 at 2019-08-05 14:46:39 +0200
+Processing by ProjectController#welcome_user as HTML
+  Parameters: {"first_name"=>"treat", "last_name"=>"ezrtezrt", "id"=>":first_name"}
+  Rendering project/welcome_user.html.erb within layouts/application
+  Rendered project/welcome_user.html.erb within layouts/application (219.0ms)
+Completed 500 Internal Server Error in 225ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `first_name' for #<#<Class:0x00007fd334b719e8>:0x00007fd334bf0dd8>):
+    1: <h1>Project#welcome_user</h1>
+    2: <p>BONJOUR <%= first_name%> <%= last_name%> </p>
+  
+app/views/project/welcome_user.html.erb:2:in `_app_views_project_welcome_user_html_erb___2916017481176154140_70272549884200'
+Started GET "/welcome_user/:first_name?first_name=treat&last_name=ezrtezrt" for ::1 at 2019-08-05 14:48:06 +0200
+Processing by ProjectController#welcome_user as HTML
+  Parameters: {"first_name"=>"treat", "last_name"=>"ezrtezrt", "id"=>":first_name"}
+  Rendering project/welcome_user.html.erb within layouts/application
+  Rendered project/welcome_user.html.erb within layouts/application (168.9ms)
+Completed 500 Internal Server Error in 175ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `first_name' for #<#<Class:0x00007fd3343bb988>:0x00007fd3343ba038>):
+    1: <h1>Project#welcome_user</h1>
+    2: <p>BONJOUR <%= first_name%> <%= last_name%> </p>
+  
+app/views/project/welcome_user.html.erb:2:in `_app_views_project_welcome_user_html_erb___2916017481176154140_70272545587260'
+Started GET "/" for ::1 at 2019-08-05 14:48:08 +0200
+Processing by ProjectController#index as HTML
+  Rendering project/index.html.erb within layouts/application
+  Rendered project/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 93ms (Views: 91.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-08-05 14:48:11 +0200
+Processing by ProjectController#index as HTML
+  Rendering project/index.html.erb within layouts/application
+  Rendered project/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 21ms (Views: 19.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/welcome_user/:first_name?first_name=zsq&last_name=azdeazd" for ::1 at 2019-08-05 14:48:14 +0200
+Processing by ProjectController#welcome_user as HTML
+  Parameters: {"first_name"=>"zsq", "last_name"=>"azdeazd", "id"=>":first_name"}
+  Rendering project/welcome_user.html.erb within layouts/application
+  Rendered project/welcome_user.html.erb within layouts/application (198.2ms)
+Completed 500 Internal Server Error in 204ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `first_name' for #<#<Class:0x00007fd3343bb988>:0x00007fd3375d9af0>):
+    1: <h1>Project#welcome_user</h1>
+    2: <p>BONJOUR <%= first_name%> <%= last_name%> </p>
+  
+app/views/project/welcome_user.html.erb:2:in `_app_views_project_welcome_user_html_erb___2916017481176154140_70272571856240'
+Started GET "/welcome_user/:first_name?first_name=zsq&last_name=azdeazd" for ::1 at 2019-08-05 14:49:01 +0200
+Processing by ProjectController#welcome_user as HTML
+  Parameters: {"first_name"=>"zsq", "last_name"=>"azdeazd", "id"=>":first_name"}
+  Rendering project/welcome_user.html.erb within layouts/application
+  Rendered project/welcome_user.html.erb within layouts/application (189.5ms)
+Completed 500 Internal Server Error in 196ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `first_name' for #<#<Class:0x00007fd334b32bd0>:0x00007fd334b23c48>):
+    1: <h1>Project#welcome_user</h1>
+    2: <p>BONJOUR <%= first_name%> <%= last_name%> </p>
+  
+app/views/project/welcome_user.html.erb:2:in `_app_views_project_welcome_user_html_erb___2916017481176154140_70272549503780'
+Started GET "/" for ::1 at 2019-08-05 14:49:07 +0200
+Processing by ProjectController#index as HTML
+  Rendering project/index.html.erb within layouts/application
+  Rendered project/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 17ms (Views: 15.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/welcome_user/:first_name?first_name=eaze&last_name=azeaze" for ::1 at 2019-08-05 14:49:12 +0200
+Processing by ProjectController#welcome_user as HTML
+  Parameters: {"first_name"=>"eaze", "last_name"=>"azeaze", "id"=>":first_name"}
+  Rendering project/welcome_user.html.erb within layouts/application
+  Rendered project/welcome_user.html.erb within layouts/application (177.6ms)
+Completed 500 Internal Server Error in 183ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `first_name' for #<#<Class:0x00007fd334b32bd0>:0x00007fd334c39678>):
+    1: <h1>Project#welcome_user</h1>
+    2: <p>BONJOUR <%= first_name%> <%= last_name%> </p>
+  
+app/views/project/welcome_user.html.erb:2:in `_app_views_project_welcome_user_html_erb___2916017481176154140_70272550032620'
