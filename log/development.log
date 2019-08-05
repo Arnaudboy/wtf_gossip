@@ -17637,3 +17637,189 @@ Processing by ProjectController#welcome_user as HTML
 Completed 200 OK in 17ms (Views: 14.9ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/" for ::1 at 2019-08-05 20:45:57 +0200
+Processing by ProjectController#index as HTML
+  Rendering project/index.html.erb within layouts/application
+  [1m[36mGossip Load (0.5ms)[0m  [1m[34mSELECT "gossips".* FROM "gossips"[0m
+  ↳ app/views/project/index.html.erb:11
+  Rendered project/index.html.erb within layouts/application (9.2ms)
+Completed 500 Internal Server Error in 15ms (ActiveRecord: 0.5ms)
+
+
+  
+ActionView::Template::Error (undefined method `title' for nil:NilClass):
+     9: 
+    10: <h2> Voici tous les gossips </h2>
+    11: <div>	<%= @gossips.each do |gossip| %>
+    12: 		<p><a href="/gossip/<%=gossip.id%>/"> <%= @gossip.title %>, <%=@gossip.user%> </a></p>
+    13: 	<% end %>
+    14: </div>
+  
+app/views/project/index.html.erb:12:in `block in _app_views_project_index_html_erb___3969061751255893937_70326722181580'
+app/views/project/index.html.erb:11:in `_app_views_project_index_html_erb___3969061751255893937_70326722181580'
+Started GET "/" for ::1 at 2019-08-05 20:46:45 +0200
+Processing by ProjectController#index as HTML
+  Rendering project/index.html.erb within layouts/application
+  [1m[36mGossip Load (0.3ms)[0m  [1m[34mSELECT "gossips".* FROM "gossips"[0m
+  ↳ app/views/project/index.html.erb:11
+  Rendered project/index.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 20ms (Views: 17.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2019-08-05 20:51:35 +0200
+Processing by ProjectController#index as HTML
+  Rendering project/index.html.erb within layouts/application
+  [1m[36mGossip Load (0.3ms)[0m  [1m[34mSELECT "gossips".* FROM "gossips"[0m
+  ↳ app/views/project/index.html.erb:11
+  Rendered project/index.html.erb within layouts/application (11.8ms)
+Completed 200 OK in 34ms (Views: 26.0ms | ActiveRecord: 5.0ms)
+
+
+Started GET "/gossip/43/" for ::1 at 2019-08-05 20:51:44 +0200
+Processing by ProjectController#gossip as HTML
+  Parameters: {"id"=>"43"}
+  [1m[36mGossip Load (0.2ms)[0m  [1m[34mSELECT  "gossips".* FROM "gossips" WHERE "gossips"."id" = $1 LIMIT $2[0m  [["id", 43], ["LIMIT", 1]]
+  ↳ app/controllers/project_controller.rb:19
+  [1m[36mCACHE Gossip Load (0.0ms)[0m  [1m[34mSELECT  "gossips".* FROM "gossips" WHERE "gossips"."id" = $1 LIMIT $2[0m  [["id", 43], ["LIMIT", 1]]
+  ↳ app/controllers/project_controller.rb:20
+  [1m[36mCACHE Gossip Load (0.0ms)[0m  [1m[34mSELECT  "gossips".* FROM "gossips" WHERE "gossips"."id" = $1 LIMIT $2[0m  [["id", 43], ["LIMIT", 1]]
+  ↳ app/controllers/project_controller.rb:21
+  Rendering project/gossip.html.erb within layouts/application
+  Rendered project/gossip.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 21ms (Views: 16.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/gossip/3/" for ::1 at 2019-08-05 20:51:48 +0200
+Processing by ProjectController#gossip as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mGossip Load (0.3ms)[0m  [1m[34mSELECT  "gossips".* FROM "gossips" WHERE "gossips"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/project_controller.rb:19
+Completed 404 Not Found in 1ms (ActiveRecord: 0.3ms)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Gossip with 'id'=3):
+  
+app/controllers/project_controller.rb:19:in `gossip'
+Started GET "/gossip/43/" for ::1 at 2019-08-05 20:51:51 +0200
+Processing by ProjectController#gossip as HTML
+  Parameters: {"id"=>"43"}
+  [1m[36mGossip Load (0.3ms)[0m  [1m[34mSELECT  "gossips".* FROM "gossips" WHERE "gossips"."id" = $1 LIMIT $2[0m  [["id", 43], ["LIMIT", 1]]
+  ↳ app/controllers/project_controller.rb:19
+  [1m[36mCACHE Gossip Load (0.0ms)[0m  [1m[34mSELECT  "gossips".* FROM "gossips" WHERE "gossips"."id" = $1 LIMIT $2[0m  [["id", 43], ["LIMIT", 1]]
+  ↳ app/controllers/project_controller.rb:20
+  [1m[36mCACHE Gossip Load (0.0ms)[0m  [1m[34mSELECT  "gossips".* FROM "gossips" WHERE "gossips"."id" = $1 LIMIT $2[0m  [["id", 43], ["LIMIT", 1]]
+  ↳ app/controllers/project_controller.rb:21
+  Rendering project/gossip.html.erb within layouts/application
+  Rendered project/gossip.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 33ms (Views: 28.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2019-08-05 20:53:29 +0200
+Processing by ProjectController#index as HTML
+  Rendering project/index.html.erb within layouts/application
+  [1m[36mGossip Load (0.3ms)[0m  [1m[34mSELECT "gossips".* FROM "gossips"[0m
+  ↳ app/views/project/index.html.erb:11
+  Rendered project/index.html.erb within layouts/application (11.3ms)
+Completed 200 OK in 31ms (Views: 23.8ms | ActiveRecord: 3.2ms)
+
+
+Started GET "/" for ::1 at 2019-08-05 20:54:11 +0200
+Processing by ProjectController#index as HTML
+  Rendering project/index.html.erb within layouts/application
+  Rendered project/index.html.erb within layouts/application (0.7ms)
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/arnaudboyer/Desktop/THP/semaine5/lun/wtf_gossip/app/views/project/index.html.erb:13: syntax error, unexpected keyword_end
+...eze;@output_buffer.append=( end);@output_buffer.safe_append=...
+...                            ^~~
+/Users/arnaudboyer/Desktop/THP/semaine5/lun/wtf_gossip/app/views/project/index.html.erb:15: syntax error, unexpected keyword_ensure, expecting ')'
+          ensure
+          ^~~~~~
+/Users/arnaudboyer/Desktop/THP/semaine5/lun/wtf_gossip/app/views/project/index.html.erb:17: syntax error, unexpected keyword_end, expecting ')'
+          end
+          ^~~):
+  
+app/views/project/index.html.erb:13: syntax error, unexpected keyword_end
+app/views/project/index.html.erb:15: syntax error, unexpected keyword_ensure, expecting ')'
+app/views/project/index.html.erb:17: syntax error, unexpected keyword_end, expecting ')'
+Started GET "/" for ::1 at 2019-08-05 20:54:28 +0200
+Processing by ProjectController#index as HTML
+  Rendering project/index.html.erb within layouts/application
+  Rendered project/index.html.erb within layouts/application (0.6ms)
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/arnaudboyer/Desktop/THP/semaine5/lun/wtf_gossip/app/views/project/index.html.erb:13: syntax error, unexpected keyword_end
+...eze;@output_buffer.append=( end);@output_buffer.safe_append='
+...                            ^~~
+/Users/arnaudboyer/Desktop/THP/semaine5/lun/wtf_gossip/app/views/project/index.html.erb:16: syntax error, unexpected keyword_ensure, expecting ')'
+          ensure
+          ^~~~~~
+/Users/arnaudboyer/Desktop/THP/semaine5/lun/wtf_gossip/app/views/project/index.html.erb:18: syntax error, unexpected keyword_end, expecting ')'
+          end
+          ^~~):
+  
+app/views/project/index.html.erb:13: syntax error, unexpected keyword_end
+app/views/project/index.html.erb:16: syntax error, unexpected keyword_ensure, expecting ')'
+app/views/project/index.html.erb:18: syntax error, unexpected keyword_end, expecting ')'
+Started GET "/" for ::1 at 2019-08-05 20:55:08 +0200
+Processing by ProjectController#index as HTML
+  Rendering project/index.html.erb within layouts/application
+  Rendered project/index.html.erb within layouts/application (1.8ms)
+Completed 500 Internal Server Error in 9ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/arnaudboyer/Desktop/THP/semaine5/lun/wtf_gossip/app/views/project/index.html.erb:13: syntax error, unexpected keyword_end
+...eeze;@output_buffer.append=(end);@output_buffer.safe_append='
+...                            ^~~
+/Users/arnaudboyer/Desktop/THP/semaine5/lun/wtf_gossip/app/views/project/index.html.erb:16: syntax error, unexpected keyword_ensure, expecting ')'
+          ensure
+          ^~~~~~
+/Users/arnaudboyer/Desktop/THP/semaine5/lun/wtf_gossip/app/views/project/index.html.erb:18: syntax error, unexpected keyword_end, expecting ')'
+          end
+          ^~~):
+  
+app/views/project/index.html.erb:13: syntax error, unexpected keyword_end
+app/views/project/index.html.erb:16: syntax error, unexpected keyword_ensure, expecting ')'
+app/views/project/index.html.erb:18: syntax error, unexpected keyword_end, expecting ')'
+Started GET "/" for ::1 at 2019-08-05 20:55:29 +0200
+Processing by ProjectController#index as HTML
+  Rendering project/index.html.erb within layouts/application
+  [1m[36mGossip Load (0.6ms)[0m  [1m[34mSELECT "gossips".* FROM "gossips"[0m
+  ↳ app/views/project/index.html.erb:11
+  Rendered project/index.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 45ms (Views: 42.7ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/" for ::1 at 2019-08-05 20:57:28 +0200
+Processing by ProjectController#index as HTML
+  Rendering project/index.html.erb within layouts/application
+  [1m[36mGossip Load (0.3ms)[0m  [1m[34mSELECT "gossips".* FROM "gossips"[0m
+  ↳ app/views/project/index.html.erb:11
+  Rendered project/index.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 128ms (Views: 125.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2019-08-05 21:00:16 +0200
+Processing by ProjectController#index as HTML
+  Rendering project/index.html.erb within layouts/application
+  [1m[36mGossip Load (0.3ms)[0m  [1m[34mSELECT "gossips".* FROM "gossips"[0m
+  ↳ app/views/project/index.html.erb:11
+  Rendered project/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 131ms (Views: 128.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2019-08-05 21:02:50 +0200
+Processing by ProjectController#index as HTML
+  Rendering project/index.html.erb within layouts/application
+  [1m[36mGossip Load (0.3ms)[0m  [1m[34mSELECT "gossips".* FROM "gossips"[0m
+  ↳ app/views/project/index.html.erb:11
+  Rendered project/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 21ms (Views: 18.8ms | ActiveRecord: 0.3ms)
+
+

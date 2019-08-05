@@ -8,7 +8,7 @@
 </form>
 
 <h2> Voici tous les gossips </h2>
-<div>	<%= @gossips.each do |gossip| %>
+<div>	<% @gossips.each do |gossip| %>
 		<p><a href="/gossip/<%=gossip.id%>/"> <%= gossip.title %>, <%=gossip.user%> </a></p>
-	<% end %>
+<% end %>
 </div>

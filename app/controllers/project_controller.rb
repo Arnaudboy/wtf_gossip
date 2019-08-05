@@ -19,8 +19,5 @@ class ProjectController < ApplicationController
     @title = Gossip.find(params['id']).title
     @content = Gossip.find(params['id']).content
     @user = Gossip.find(params['id']).user
-    puts "$"*60
-    puts @title
-    puts "$"*60
   end
 end
