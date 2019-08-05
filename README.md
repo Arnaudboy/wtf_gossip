@@ -1,24 +1,10 @@
-# README
+The Gossip Project
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Le premier jet d'une appli de gossips avec le format rails et un serveur local postgresql.
 
-Things you may want to cover:
+N'oubliez pas de faire un db:create et une migration en téléchargeant le repo :
+$ rails db:create
+$ rails db:migrate
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Si le serveur ne démarre pas :
+$ sudo service postgresql start
