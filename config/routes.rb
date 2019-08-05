@@ -4,7 +4,7 @@ Rails.application.routes.draw do
 
   get '/team/', to: 'project#team'
 
-  get 'project/contact'
+  get '/contact/', to: 'project#contact'
   
   get '/welcome_user/:id/', to: 'project#welcome_user' do
   	erb :welcome_user
