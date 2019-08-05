@@ -6,11 +6,13 @@ Rails.application.routes.draw do
 
   get 'project/contact'
   
-  get '/welcome_user/:id', to: 'project#welcome_user' do
-  	puts "jsefksjnn"
-  	erb :welcome_user, locals: {id: params['first_name'], first_name: Gossip.welcome(params['first_name']), last_name: Gossip.welcome(params['last_name'])}
+  get '/welcome_user/:id/', to: 'project#welcome_user' do
+  	erb :welcome_user
   end
 
-  get 'project/gossip'
+  get '/gossip/:id/', to: 'project#gossip' do
+  	erb :gossip
+  	puts "$"*120
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
+	end
 end

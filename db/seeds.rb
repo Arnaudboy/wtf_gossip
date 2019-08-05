@@ -5,3 +5,12 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+require "faker"
+
+Gossip.destroy_all
+
+
+
+20.times do 
+	Gossip.create!(title: Faker::Lorem.sentence(word_count: 4), content:Faker::Lorem.paragraph(sentence_count: 6), user: Faker::Name.first_name)
+end 
